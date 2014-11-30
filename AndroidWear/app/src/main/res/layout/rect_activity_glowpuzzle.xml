@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" tools:deviceIds="wear_square">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:onClick="puzzleClicked">
+        <com.jacobilin.glowpuzzlewear.ui.GameView
+            android:id="@+id/game_view"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp" />
+    </LinearLayout>
+
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:onClick="buttonsAreaClicked">
+        <Button
+            android:id="@+id/button_left"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttonleft"
+            android:onClick="leftButtonClicked"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttoncurrent"
+            android:onClick="centerButtonClicked"/>
+        <Button
+            android:id="@+id/button_right"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonright"
+            android:onClick="rightButtonClicked"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/logo"
+        android:src="@drawable/mainlogo2"
+        android:background="@color/black"
+        android:onClick="logoPressed"/>
+
+    <LinearLayout
+        android:id="@+id/main_menu_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:onClick="buttonsAreaClicked">
+        <Button
+            android:id="@+id/button_sound"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/buttonsoundon"
+            android:onClick="soundButtonClicked"
+            android:visibility="invisible"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonhelp"
+            android:onClick="helpButtonClicked"/>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/buttonplay"
+            android:onClick="playButtonClicked"/>
+    </LinearLayout>
+</RelativeLayout>

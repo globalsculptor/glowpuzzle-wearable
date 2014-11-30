@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GlowPuzzle Wear</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="help_message">You should connect the dots in the puzzle using straight continuous lines. You can\'t draw a line twice over the same place. Use the arrows to change the cursor, use the square to select the dot. Touch the puzzle for the animated solution.</string>
+    <string name="help_title">Help</string>
+    <string name="ok">OK</string>
+    <string name="solution">SOLUTION</string>
+    <string name="done">DONE!</string>
+    <string name="failed">FAILED!</string>
+    <string name="level">LEVEL #</string>
+
+</resources>
