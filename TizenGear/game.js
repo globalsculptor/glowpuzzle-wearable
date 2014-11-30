@@ -1,5 +1,5 @@
 var currentLevel = 1;
-var totalLevels = 120;
+var totalLevels = 10;
 var openedLevels = 1;
 
 var isSolution = false;
