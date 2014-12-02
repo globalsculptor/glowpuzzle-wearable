@@ -13,6 +13,6 @@ Android Wear: https://play.google.com/store/apps/details?id=com.jacobilin.glowpu
 
 Tizen Gear 2/S: http://apps.samsung.com/mars/topApps/topAppsDetail.as?COUNTRY_CODE=USA&&productId=000000935524
 
-The version for Tizen Gear 2/S Smartwatches was developed specially for the Tizen App Challenge 2014.
+The version for Tizen Gear 2/S Smartwatches was developed specially for the Tizen App Challenge.
 
 More info on my website: http://jacobilin.com
