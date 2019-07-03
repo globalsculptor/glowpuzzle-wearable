@@ -9,10 +9,6 @@ Not familiar with GlowPuzzle? It’s been a big hit among phone users alike. The
 
 Android version: https://play.google.com/store/apps/details?id=com.glosculptor.glowpuzzle
 
-Android Wear: https://play.google.com/store/apps/details?id=com.jacobilin.glowpuzzlewear
-
-Tizen Gear 2/S: http://apps.samsung.com/mars/topApps/topAppsDetail.as?COUNTRY_CODE=USA&&productId=000000935524
-
 The version for Tizen Gear 2/S Smartwatches was developed specially for the Tizen App Challenge.
 
-More info on my website: http://jacobilin.com
+More info on my website: http://globalsculptor.com
