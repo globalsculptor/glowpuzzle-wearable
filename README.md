@@ -11,4 +11,4 @@ Android version: https://play.google.com/store/apps/details?id=com.glosculptor.g
 
 The version for Tizen Gear 2/S Smartwatches was developed specially for the Tizen App Challenge.
 
-More info on my website: http://globalsculptor.com
+More info on our website: http://globalsculptor.com
