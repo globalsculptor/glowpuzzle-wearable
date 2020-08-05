@@ -1,7 +1,7 @@
 Glow Puzzle Wearable
 ===================
 
-The wearable adaptation of the legendary connect the dots puzzle game.
+The wearable adaptation of the legendary puzzle game.
 
 Glow Puzzle is an extremely addicting game. The goal is to connect all the dots in the puzzle using a continuous path but you are not allowed to reuse any completed path. There are 120 brain teasing levels available to keep you challenged in this game.
 
